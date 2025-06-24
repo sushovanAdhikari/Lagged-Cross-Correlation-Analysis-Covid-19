@@ -40,6 +40,13 @@ Used `scipy.signal.correlate` to measure the time lag between weekly cases and d
 ### Linear Regression  
 Performed on lag-adjusted data to compute the slope representing the deaths-to-cases ratio using `scipy.stats.linregress`.
 
+## Requirements
+
+Install the required packages using:
+
+```bash
+pip install -r requirements.txt
+
 ## Visualizations
 
 Each notebook contains:  
